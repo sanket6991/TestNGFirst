@@ -18,7 +18,7 @@ public class TestCase1 {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
-/*
+
 //Test Case 1 incorrect phone number
 	@Test
 	public void incorrectPhone() {
@@ -81,4 +81,4 @@ public class TestCase1 {
 		WebDriver driver = new ChromeDriver();
 		driver.quit();
 	};
-}*/
+}
