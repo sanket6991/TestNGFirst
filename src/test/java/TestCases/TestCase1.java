@@ -14,7 +14,8 @@ public class TestCase1 {
 	// open browser and Setup browser
 	
 	public static void main(String[] args) throws InterruptedException {
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/TestNG");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
